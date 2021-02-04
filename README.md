@@ -1,4 +1,3 @@
-# d3-Learning-t
 import * as d3 from "d3";
 /**
  *  在html中插入一个简单的文本
@@ -7,15 +6,14 @@ import * as d3 from "d3";
 
 /**
  * JSdom写法
- *
  */
-// document.querySelector("body").append(
-//   (() => {
-//     const ele = document.createElement("p");
-//     ele.innerText = "hello world";
-//     return ele;
-//   })()
-// );
+document.querySelector("body").append(
+  (() => {
+    const ele = document.createElement("p");
+    ele.innerText = "hello world";
+    return ele;
+  })()
+);
 
 /**
  * D3写法
